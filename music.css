@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anton&family=Bagel+Fat+One&family=Bebas+Neue&family=Caveat:wght@500;600&family=Cherry+Bomb+One&family=Croissant+One&family=Dancing+Script:wght@400;600&family=Esteban&family=Exo+2:ital,wght@0,300;1,200&family=Faster+One&family=Frijole&family=Fuggles&family=KoHo&family=Lora:ital@1&family=Mina&family=Nosifer&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Rajdhani&family=Rancho&family=Rubik+Dirt&family=Shadows+Into+Light&family=Trade+Winds&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/photo-1523633589114-88eaf4b4f1a8.avif);
+    background-size: cover;
+}
+nav{
+    padding-top: 1.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 4rem;
+    padding-left: 1.5rem;
+}
+
+.header{
+    height: 90px;
+    background-image: linear-gradient(to right, rgb(219, 234, 254), rgb(147, 197, 253), rgb(59, 130, 246));
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(67, 168, 236);
+    font-family: 'Croissant One', cursive;
+    font-weight: 600;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+}
+
+a:first-child{
+    background-color: rgb(67, 168, 236);
+    color: white;
+}
+
+nav div{
+    position: fixed;
+    right: 1rem;
+    width:300px;
+    display: flex;
+    justify-content: center;
+}
+
+div input{
+    padding: 1rem;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid rgb(0, 145, 255);
+}
+
+.top{
+    padding: 1rem;
+    border-radius: 0 10px 10px 0 ;
+    border: 2px solid rgb(51, 158, 240);
+    background-color:#59e9d8e7;
+    margin-left: 2px;
+}
+.top:hover{
+    transform: scale(1.09);
+}
+
+.top:active{
+    background-color:#59e9d8b5;
+}
+
+a:hover{
+    color: rgba(67, 168, 236, 0.805);
+    background-color: rgba(255, 255, 255, 0.805);
+}
+
+a:first-child:hover{
+    background-color: rgba(67, 168, 236, 0.805);
+    color: rgba(255, 255, 255, 0.805);
+}
+
+a:active{
+    box-shadow:  5px 5px rgb(0, 145, 255);
+}
+
+a:first-child:active{
+    box-shadow:  5px 5px rgba(157, 156, 156, 0.902);
+}
+
+h1{
+    padding: 2rem;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px rgb(0, 89, 255);
+    font-size: 2.3rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-family: 'Croissant One', cursive
+}
+
+img{
+    position: absolute;
+    right: 4rem;
+    top: 14.5rem;
+    border-radius: 50%;
+    width: 550px;
+    height: 450px;
+    box-shadow: 0 0 5px 5px  #e7edf5;
+}
+
+.circle{
+    position: absolute;
+    top:0;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    box-shadow: 0 0 3px 3px lightskyblue;
+}
+
+.one{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    top:12rem;
+    right: 30rem;
+}
+
+.one:hover{
+    background-color: rgba(84, 246, 252, 0.8);
+    transform: scale(-1);
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    top:35rem;
+    right: 28rem;
+}
+
+.two:hover{
+    background-color: rgba(10, 55, 100, 0.754);
+    transform: scale(-1);
+}
+
+.three{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(42, 177, 239);
+    top:13rem;
+    right: 5rem;
+}
+
+.three:hover{
+    background-color: rgba(6, 9, 82, 0.725);
+    transform: scale(-1);
+}
+
+.four{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(51, 9, 188);
+    top:26rem;
+    right: 39rem;
+}
+
+.four:hover{
+    background-color: rgba(8, 227, 201, 0.785);
+    transform: scale(-1);
+}
+
+.five{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(42, 232, 239);
+    top:37rem;
+    right: 8rem;
+}
+
+.five:hover{
+    background-color: rgba(10, 6, 123, 0.651);
+    transform: scale(-2);
+}
+blockquote{
+    width: 500px;
+    height: auto;
+    margin:  1rem 3rem;
+    background-color: rgba(139, 187, 241, 0.451);
+    text-align: left;
+    padding: 1rem;
+    border-radius: 5px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+.fi,.se {
+   outline: thick double #3f87e5;
+}
+
+.explain{
+    width: 1280px;
+    height: 1500px;
+    background-color: rgba(59, 39, 160, 0.858);
+    margin: 4rem 2rem;
+    border-radius: 80px;
+    font-family: 'Mina', sans-serif;
+    padding: 0 1rem;
+    outline: solid #6eabe8;
+}
+
+.explain h2{
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 2rem;
+     font-weight: 600;
+     text-shadow: 3px 3px 3px blue;
+     color: #d0cdcd;
+}
+
+p~h3{
+   color: rgb(118, 184, 251);
+   font-size: 1.4rem;
+}
+
+.pic{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(3, 18, 151);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px white solid;
+}
+
+.pic:hover{
+    transform: scale(5.5);
+    transform-origin: bottom left;
+    background-image: url(./img/ADTR_Pier17_Keeyahtay-52-1560x960.jpg);
+    background-size: cover; 
+    box-shadow: 0 0 3px 3px rgb(64, 43, 226);
+    border: none;
+}
+
+.iu:hover{
+    background-image: url(./img/p07rdd9d.jpg);
+}
+
+.uu:hover{
+    background-image: url(./img/Top\ 3\ Activities\ for\ Regaining\ Your\ Self-Confidence.webp);
+}
+
+.ou:hover{
+    background-image: url(./img/p07mbnm9.png);
+}
+
+.lu:hover{
+    background-image: url(./img/GettyImages-1238998139-scaled-1.jpg);
+}
+
+footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to left, rgb(219, 234, 254), rgb(147, 197, 253), rgb(59, 130, 246));
+    width: 100vw;
+    height: auto;
+}
+.font{
+    font-family: 'Rancho', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.oo{
+    font-size: 2rem;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    gap: 2rem;
+
+}
+
+.fa-brands{
+    text-decoration: none;
+    color: black !important;
+    background-color: rgb(118, 209, 251) !important;
+}
+
+.fa-brands:hover{
+    background-color: black;
+}
+
+@media screen and (max-width: 1115px) and (min-width:764px ) {
+    div input{
+        display: none;
+    }
+    
+    .top{
+        display: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: rgb(67, 168, 236);
+        font-family: 'Croissant One', cursive;
+        font-weight: 600;
+        background-color: white;
+        padding: 0.5rem 2rem;
+        border-radius: 10px;
+        margin-left: 3rem;
+    }
+img{
+    display: none;
+}
+
+.circle{
+    display: none;
+}
+
+blockquote{
+    width: 800px;
+    height: auto;
+    margin:  1rem 3rem;
+    background-color: rgba(139, 187, 241, 0.451);
+    text-align: left;
+    padding: 1rem;
+    border-radius: 5px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+.explain{
+    width: 830px;
+    height: 1770px;
+    background-color: rgba(59, 39, 160, 0.858);
+    margin: 4rem 2rem;
+    border-radius: 80px;
+    font-family: 'Mina', sans-serif;
+    padding: 0 1rem;
+    outline: solid #6eabe8;
+}
+}

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anton&family=Bagel+Fat+One&family=Bebas+Neue&family=Caveat:wght@500;600&family=Cherry+Bomb+One&family=Croissant+One&family=Dancing+Script:wght@400;600&family=Esteban&family=Exo+2:ital,wght@0,300;1,200&family=Faster+One&family=Fontdiner+Swanky&family=Frijole&family=Fuggles&family=Gorditas:wght@700&family=KoHo&family=Lora:ital@1&family=Mina&family=Nosifer&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Rajdhani&family=Rancho&family=Rubik+Dirt&family=Shadows+Into+Light&family=Trade+Winds&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/photo-1503455637927-730bce8583c0.avif);
+    background-size: cover;
+}
+nav{
+    padding-top: 1.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 4rem;
+    padding-left: 1.5rem;
+}
+
+.header{
+    height: 90px;
+    background-image: linear-gradient(to right, rgb(219, 234, 254), rgb(147, 197, 253), rgb(59, 130, 246));
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(67, 168, 236);
+    font-family: 'Croissant One', cursive;
+    font-weight: 600;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+}
+
+a:first-child{
+    background-color: rgb(67, 168, 236);
+    color: white;
+}
+
+nav div{
+    position: fixed;
+    right: 1rem;
+    width:300px;
+    display: flex;
+    justify-content: center;
+}
+
+div input{
+    padding: 1rem;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid rgb(0, 145, 255);
+}
+
+.top{
+    padding: 1rem;
+    border-radius: 0 10px 10px 0 ;
+    border: 2px solid rgb(51, 158, 240);
+    background-color:#59e9d8e7;
+    margin-left: 2px;
+}
+.top:hover{
+    transform: scale(1.09);
+}
+
+.top:active{
+    background-color:#59e9d8b5;
+}
+
+a:hover{
+    color: rgba(67, 168, 236, 0.805);
+    background-color: rgba(255, 255, 255, 0.805);
+}
+
+a:first-child:hover{
+    background-color: rgba(67, 168, 236, 0.805);
+    color: rgba(255, 255, 255, 0.805);
+}
+
+.shit:active{
+    box-shadow:  5px 5px rgb(0, 145, 255);
+}
+
+a:first-child:active{
+    box-shadow:  5px 5px rgba(157, 156, 156, 0.902);
+}
+
+div#taylor img{
+ width: 700px;
+ margin: 4rem 20rem;
+ outline: thick double rgb(238, 140, 157);
+ border-radius: 8px;
+}
+
+
+#taylor p{
+    font-size: 12rem;
+    position: absolute;
+    top: 0;
+    font-family: 'Gorditas', cursive;
+}
+#taylor p:first-child{
+    top: 8rem;
+    left: 13rem;
+    color: rgb(248, 23, 136);
+    text-shadow:5px 5px 5px hotpink;
+}
+
+#taylor p:nth-child(3){
+    color: hotpink;
+    top: 20rem;
+    right: 12rem;
+    text-shadow:5px 5px 5px rgb(248, 23, 136);
+}
+
+.card{
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    margin: 10px 30px;
+    margin-bottom: 3rem;
+    background-image: linear-gradient(to right, rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241));
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px hotpink solid;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    outline: thick double #f302ef;
+}
+.cards{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.zit{
+    max-width: 270px;
+    min-height: 230px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    border: 3px solid #dd99f6;
+}
+img+p{
+    padding: 0.5rem;
+    font-weight: 100;
+    text-align:center;
+color: rgba(237, 235, 235, 0.814);
+font-family: 'Mina', sans-serif;
+}
+
+.down{
+    border-radius: 7px;
+    background-color: #ff66cc;
+    border: hotpink 1px solid;
+    padding: 1rem;
+}
+
+.down:hover{
+   box-shadow: 0 0 5px 5px rgb(198, 11, 255);
+}
+
+.down:active{
+    background-color: #ff56abf1;
+}
+
+h3.img+img{
+    height: 230px;
+}
+.img{
+    font-family: 'Croissant One', cursive;
+    color: #f0bdf7;
+    font-size: 1.3rem;
+}
+footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to left, rgb(219, 234, 254), rgb(147, 197, 253), rgb(59, 130, 246));
+    width: 100vw;
+    height: auto;
+}
+.font{
+    font-family: 'Rancho', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    gap: 2rem;
+
+}
+
+.fa-brands{
+    text-decoration: none;
+    color: black !important;
+    background-color: rgb(118, 209, 251) !important;
+}
+
+.fa-brands:hover{
+    background-color: black;
+}
+
+.oo{
+    font-size: 2rem;
+}
+
+form{
+    width: 800px;
+    margin: 2rem;
+}
+
+fieldset{
+    padding: 1rem;
+    border: 2px rgb(237, 12, 181) solid;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+     border-radius: 8px;
+     background-color: #f302ef71;
+}
+
+fieldset label{
+    color: rgb(255, 255, 255);
+}
+
+fieldset+input{
+    background-color: #f630b4;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    margin: 1rem 0;
+    color: white;
+    border: 1px solid rgb(237, 12, 181);
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+fieldset+input:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.784);
+    margin-left: 0.5rem;
+}
+
+fieldset+input:active{
+    transform: scale(1.1);
+    background-color: #f630b4a3;
+}
+
+@media screen and  (max-width: 1115px) and (min-width:764px ){
+    div input{
+        display: none;
+    }
+    
+    .top{
+        display: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: rgb(67, 168, 236);
+        font-family: 'Croissant One', cursive;
+        font-weight: 600;
+        background-color: white;
+        padding: 0.5rem 2rem;
+        border-radius: 10px;
+        margin-left: 3rem;
+    }
+
+    div#taylor img{
+        display: flex;
+        justify-content: center;
+        margin: 4rem 13rem;
+
+    }
+    div#taylor p{
+     display: none;
+    }
+}
