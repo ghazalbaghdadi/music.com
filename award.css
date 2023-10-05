@@ -122,7 +122,7 @@ table{
 .reason{
     background-color: #7232e97a;
     width: 198vh;
-    height: 42vw;
+    height: auto;
     border-radius: 6px;
     display: flex;
     margin-top: 2rem;
@@ -242,4 +242,73 @@ footer{
     margin-left: 6rem;
     height: 610px;
 }
+}
+@media screen and (max-width: 790px) and (min-width: 100px){
+    .button,.top{
+        display: none;
+    }
+}
+@media screen and (max-width:969px) and (min-width: 100px) {
+    
+    nav{
+        padding-top: 1.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 2rem;
+        padding-left: 1.5rem;
+    }
+    .reason{
+        background-color: #7232e97a;
+        width: 60rem;
+        height: auto;
+        border-radius: 6px;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+        outline: thick double rgb(0, 119, 255);
+    }
+
+}
+
+@media screen and (max-width:1029px) and (min-width: 600px) {
+    .reason{
+        background-color: #7232e97a;
+        width: 135vh;
+        height: auto;
+        border-radius: 6px;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+        outline: thick double rgb(0, 119, 255);
+    }
+}
+
+@media screen and (max-width:948px) and (min-width: 100px) {
+    .reason{
+        background-color: #7232e97a;
+        width: 45rem;
+        height: auto;
+        border-radius: 6px;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+        outline: thick double rgb(0, 119, 255);
+    }
+}
+@media screen and (max-width:800px) and (min-width: 100px){
+    .reason{
+        background-color: #7232e97a;
+        width: 30rem;
+        height: auto;
+        border-radius: 6px;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+        outline: thick double rgb(0, 119, 255);
+    }
 }

@@ -308,7 +308,7 @@ footer{
     background-color: black;
 }
 
-@media screen and (max-width: 1115px) and (min-width:764px ) {
+@media screen and (max-width: 1115px) and (min-width:770px ) {
     div input{
         display: none;
     }
@@ -350,8 +350,8 @@ blockquote{
 }
 
 .explain{
-    width: 830px;
-    height: 1770px;
+    width: 60rem;
+    height: auto;
     background-color: rgba(59, 39, 160, 0.858);
     margin: 4rem 2rem;
     border-radius: 80px;
@@ -359,4 +359,121 @@ blockquote{
     padding: 0 1rem;
     outline: solid #6eabe8;
 }
+}
+
+@media screen and (max-width: 770px) and (min-width: 100px){
+    .button,.top{
+        display: none;
+    }
+    .card{
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+        margin: 30px;
+        margin-bottom: 3rem;
+        background-image: radial-gradient(at right center, rgb(56, 189, 248), rgb(49, 46, 129));
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:990px) and (min-width: 100px) {
+    nav{ 
+        padding-top: 1.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-left: 1.5rem;
+    }
+
+img{
+    display: none;
+}
+.circle{
+    display: none;
+}
+.explain{
+        width: 50rem;
+        height: auto;
+        background-color: rgba(59, 39, 160, 0.858);
+        margin: 4rem 2rem;
+        border-radius: 80px;
+        font-family: 'Mina', sans-serif;
+        padding: 0 1rem;
+        outline: solid #6eabe8;
+    }
+}
+
+@media screen and (max-width:880px) and (min-width: 770px) {
+    nav{ 
+        padding-top: 1.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-left: 1rem;
+    }
+
+    blockquote{
+        width: 600px;
+        height: auto;
+        margin:  1rem 3rem;
+        background-color: rgba(139, 187, 241, 0.451);
+        text-align: left;
+        padding: 1rem;
+        border-radius: 5px;
+        font-style: italic;
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+    
+    }
+    nav{
+        padding-top: 1.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 2rem;
+        padding-left: 1.5rem;
+    }
+    
+}
+@media screen and (max-width:880px) and (min-width: 100px){
+    .explain{
+        width: 38rem;
+        height: auto;
+        background-color: rgba(59, 39, 160, 0.858);
+        margin: 4rem 2rem;
+        border-radius: 80px;
+        font-family: 'Mina', sans-serif;
+        padding: 0 1rem;
+        outline: solid #6eabe8;
+    }
+}
+@media screen and (max-width:660px) and (min-width: 100px){
+    .explain{
+        width: 25rem;
+        height: auto;
+        background-color: rgba(59, 39, 160, 0.858);
+        margin: 4rem 2rem;
+        border-radius: 80px;
+        font-family: 'Mina', sans-serif;
+        padding: 0 1rem;
+        outline: solid #6eabe8;
+    }
+    blockquote{
+        width: 300px;
+        height: auto;
+        margin:  1rem 3rem;
+        background-color: rgba(139, 187, 241, 0.451);
+        text-align: left;
+        padding: 1rem;
+        border-radius: 5px;
+        font-style: italic;
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+    
+    }
 }

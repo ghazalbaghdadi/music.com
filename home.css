@@ -219,6 +219,16 @@ footer{
         padding: 0.5rem 2rem;
         border-radius: 10px;
         margin-left: 3rem;
+        
+    }
+
+    nav{
+        padding-top: 1.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 2rem;
+        padding-left: 1.5rem;
     }
 
     main h1{
@@ -229,4 +239,33 @@ footer{
         font-size: 5rem;
         font-family: 'Nosifer', cursive;
        }
+}
+
+@media screen and (max-width: 770px) and (min-width: 100px){
+    .button,.top{
+        display: none;
+    }
+    .card{
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+        margin: 30px;
+        margin-bottom: 3rem;
+        background-image: radial-gradient(at right center, rgb(56, 189, 248), rgb(49, 46, 129));
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:739px) and (min-width: 100px) {
+    nav{
+        padding-top: 1.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-left: 1.5rem;
+    }
+
 }
